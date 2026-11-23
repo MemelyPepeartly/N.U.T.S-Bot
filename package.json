@@ -1,0 +1,17 @@
+{
+  "name": "nuts-soundboard-transfer-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin-only Discord soundboard transfer bot",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register-commands": "node src/register-commands.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.28.1"
+  }
+}
